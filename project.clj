@@ -7,4 +7,5 @@
                  [clj-http "2.0.0"]
                  [cheshire "5.7.1"]
                  [clj-time "0.13.0"]
-                 [amazonica "0.3.99"]])
+                 [amazonica "0.3.99"]
+                 [com.rpl/specter "1.0.1"]])
