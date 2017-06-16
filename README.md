@@ -4,9 +4,9 @@ A Clojure library to get my daily work done
 
 ## Usage
 
-    (require 'tools.core)
-    (tools.core/instance-ip-address "development" "SomeService")
-    (tools.core/instance-ip-address "staging" "SomeService")
+    lein instance-ip-address "development" "AlertService"
+    lein peek-at-failed-account-alert-settings "agoodnough" "development" "account_created_dead_letter"
+    lein list-accounts "development"
 
 ## License
 
